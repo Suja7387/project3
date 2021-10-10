@@ -336,7 +336,7 @@ and (max-device-width : 480px) {
         border: 1px solid red;
         width: 85%;
         height: 440px;
-        margin: 25px;
+        margin: 20px;
         border-radius: 5px;
         margin-top: 65px;
         background-color: white;
@@ -369,6 +369,9 @@ and (max-device-width : 480px) {
       }
       .mobile1{
           filter: blur(8px);
+      }
+      input{
+          height: 38px;
       }
       
   }
