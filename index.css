@@ -41,7 +41,11 @@ box-shadow: gray 5px 5px 10px;
 font-size: 15px;
 
 }
+.three1{
+    margin-left: 250px;
+}
 .four{
+    visibility: hidden;
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -56,6 +60,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .five{
+    visibility: hidden;
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -70,6 +75,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .six{
+    visibility: hidden;
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -84,6 +90,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .seven{
+    visibility: hidden;
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -157,7 +164,7 @@ form{
 }
  input{
     /* width: 100px; */
-    height: 35px;
+    height: 10px;
     font-size: 8px;
 
 } 
@@ -216,6 +223,9 @@ h1 {
       margin-bottom: 30px;
      
   }
+  .mobile1{
+      filter: blur(4px);
+  }
   @media screen and (max-width:380px) {
     .parent{
           flex-direction: column;
@@ -250,6 +260,7 @@ h1 {
          padding-top: 15px;
     }
     .four{
+        visibility: visible;
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -259,6 +270,7 @@ h1 {
          padding-top: 15px;
     }
     .five{
+        visibility: visible;
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -268,6 +280,7 @@ h1 {
          padding-top: 15px;
     }
     .six{
+        visibility: visible;
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -277,6 +290,7 @@ h1 {
          padding-top: 15px;
     }
     .seven{
+        visibility: visible;
         height: 40px;
         width: 100%;
         overflow: hidden;
