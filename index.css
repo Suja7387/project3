@@ -226,8 +226,12 @@ h1 {
   .mobile1{
       filter: blur(4px);
   }
-  @media screen and (max-width:380px) {
-    .parent{
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+.parent{
           flex-direction: column;
           padding-left: 0px;
           
