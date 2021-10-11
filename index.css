@@ -45,7 +45,7 @@ font-size: 15px;
     margin-left: 250px;
 }
 .four{
-    visibility: hidden;
+   
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -60,7 +60,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .five{
-    visibility: hidden;
+    
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -75,7 +75,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .six{
-    visibility: hidden;
+    
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -90,7 +90,7 @@ font-size: 15px;
     font-size: 15px;
 }
 .seven{
-    visibility: hidden;
+  
     width: 100px;
     height: 160px;
     border: 1px solid red;
@@ -108,6 +108,8 @@ font-size: 15px;
     display: flex;
     padding-left: 100px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 10px;
 
    
 }
@@ -264,7 +266,7 @@ and (max-device-width : 480px) {
          padding-top: 15px;
     }
     .four{
-        visibility: visible;
+     
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -274,7 +276,7 @@ and (max-device-width : 480px) {
          padding-top: 15px;
     }
     .five{
-        visibility: visible;
+      
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -284,7 +286,7 @@ and (max-device-width : 480px) {
          padding-top: 15px;
     }
     .six{
-        visibility: visible;
+      
         height: 40px;
         width: 100%;
         overflow: hidden;
@@ -294,7 +296,7 @@ and (max-device-width : 480px) {
          padding-top: 15px;
     }
     .seven{
-        visibility: visible;
+      
         height: 40px;
         width: 100%;
         overflow: hidden;
